@@ -1,6 +1,4 @@
 const {Pool} = require('pg');
-const dotenv = require('dotenv');
-dotenv.config();
 
 const config = {
   host: 'ec2-54-144-251-233.compute-1.amazonaws.com',

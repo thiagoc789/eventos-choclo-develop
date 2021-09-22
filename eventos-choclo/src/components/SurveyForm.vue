@@ -4,7 +4,6 @@
 
 <script>
 import * as Survey from "survey-vue";
-
 import "survey-vue/survey.css";
 
 Survey.StylesManager.applyTheme("default");
@@ -23,7 +22,18 @@ export default {
         //var mySurvey = sender;
         var surveyData = sender.data;
         console.log(surveyData);
-        console.log('holaaaa')
+        const age = surveyData.age
+        console.log(age)
+        
+
+
+
+        //const query = `INSERT INTO users(
+	//id, name, last_name, email, password)
+	//VALUES ('age', 'prueba1', 'a', 'a', '***');`
+        
+        
+        
     });
 
     return {
